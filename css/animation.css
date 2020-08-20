@@ -1,0 +1,36 @@
+h2 {
+    color: blue;
+}
+
+#logo {
+    color: cyan;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate
+{
+    0% {
+        color: yellow;
+    }
+    14.2857142857% {
+        color: orange;
+    }
+    28.5714285714% {
+        color: red;
+    }
+    42.8571428571% {
+        color: purple;
+    }
+    57.1428571428% {
+        color:blue;
+    }
+    71.4285714285% {
+        color: skyblue;
+    }
+    85.7142857142% {
+        color: green;
+    }
+    100% {
+        color: yellow;
+    }
+}
