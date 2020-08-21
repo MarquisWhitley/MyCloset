@@ -1,3 +1,14 @@
-ul, li {
-    list-style: none;
+header {
+    background-color: green;
+}
+
+nav {
+    background-color: indianred;
+}
+main {
+    background-color: mediumturquoise;
+}
+footer {
+    background-color: rgb(21, 21, 49);
+    height: 100px;
 }
