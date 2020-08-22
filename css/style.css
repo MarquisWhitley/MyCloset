@@ -1,13 +1,105 @@
-header {
-    background-color: green;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*********************************************** Utilities */
+
+a {
+    text-decoration: none;
 }
 
-nav {
-    background-color: indianred;
+img {
+    display: block;
+    float: left;
+    max-width: 33.3%;
+    min-width: 33.3%;
+    min-height: 50vh;
+    max-height: 50vh;
+    
+    /* float: initial; */
 }
+
+
+/********************************************* Header*/
+
+header {
+    background-color: aliceblue;
+}
+header .container {
+    background-image: radial-gradient(rgba(192, 190, 190, 0.76)20%, 
+    rgba(240, 248, 255, 0.274 ));
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.log ul {
+    float: right;
+    list-style: none;
+}
+.log li {
+    float: left;
+}
+.log ul li a {
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+}
+.log a:hover{
+    color:rgb(204, 204, 204);
+}
+
+
+
+/********************************************************** */
+
+
+/***************************************** NavBar *****************/
+
+
+
+
+nav {
+    background-image: radial-gradient(rgba(192, 190, 190, 0.76)20%, 
+    rgba(240, 248, 255, 0.274 ));
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav a {
+    color: rgb(63, 63, 63);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.border {
+    border-right: solid 1px;
+}
+/********************************************************** */
+
+
+/********************************************************** Main */
+
 main {
+    clear: both;
     background-color: mediumturquoise;
 }
+
+
+/********************************************************** */
+
+
+
+/********************************************************** Footer */
 footer {
     background-color: rgb(21, 21, 49);
     height: 100px;
