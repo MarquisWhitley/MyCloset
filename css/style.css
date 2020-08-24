@@ -39,18 +39,15 @@ header a{
     text-decoration: none;
     color: black;
 }
-
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
 .log ul {
-    float: right;
     list-style: none;
 }
-.log li {
-    float: left;
-}
 .log ul li a {
-    display: block;
-    text-align: center;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 .log a:hover{
     color:rgb(204, 204, 204);
